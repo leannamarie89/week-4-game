@@ -1,0 +1,33 @@
+body {
+
+	background-image: url("../images/background.jpg");
+}
+
+h1{
+	background-color: orange; 
+	color: white;
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 640px;
+}
+
+#rules {
+	background-color: tan;
+	color: green;
+	padding: 10px;
+
+}
+
+.score {
+	width: 100px;
+	height: 75px;
+	background-color: aqua;
+}
+
+#endResult {
+	width: 200px;
+	height:20px;
+	background-color: teal;
+	color: white;
+	font-size: 12px;
+}
