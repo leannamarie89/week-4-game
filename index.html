@@ -2,12 +2,14 @@
 <html>
 <head>
 	<title>CrystalsCollector!</title>
+ 
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
+	
 
 <h1>CrystalsCollector!</h1>
 
@@ -24,24 +26,34 @@
 </div>
 
 
+<div id = "guess">
+	<h2>Number to Guess:</h2>
+	<span style="font-size: 16px;" id="number"></span>
+</div>
+
 <div class="score">
 	Wins:<div id="wins"></div>
 	Losses:<div id="losses"></div>
 
 </div>
 
+
 <div class="crystalimages">
-	<img src="assets/images/pink crystal.png">
-	<img src="assets/images/blue crystal.png">
-	<img src="assets/images/yellow crystal.png">
-	<img src="assets/images/green crystal.jpg">
+	<img src="assets/images/pink crystal.png" id="pink" class="crystalimages">
+	<img src="assets/images/blue crystal.png" id="blue"
+	class="crystalimages">
+	<img src="assets/images/yellow crystal.png" id="yellow" class="crystalimages">
+	<img src="assets/images/green crystal.jpg" id="green" class="crystalimages">
 </div>
 
+
 <div id = "endResult">
-	<h2>Your total score is:</h2>
+	<h3>Your total score is:</h3>
+	<span id="total"></span>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
